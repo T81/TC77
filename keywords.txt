@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For PID Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TC77	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readRaw	KEYWORD2
+Temp	KEYWORD2
+ID	KEYWORD2
+Config	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TC77_CELSIUS	LITERAL1
+TC77_KELVIN	LITERAL1
+TC77_FAHRENHEIT	LITERAL1
