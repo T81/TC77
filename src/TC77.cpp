@@ -36,7 +36,6 @@ bool TC77::Update(long interval) {
 		digitalWrite(_csPin, HIGH); 								// Set CS to HIGH to complete measurement
 		_previousMillis = millis();									// reinitialize clock
 		_dataRaw = (_dataRaw >> 3);									// get rid the first 3 bits
-		// _dataRaw = (0xFFFF >> 3) & 0x1FFF;							// uncomment for debug
 		if (_dataRaw & 0x1000) {									// in cases of negative temperature									
 			_dataRaw = (_dataRaw & 0xFFF) - 4096;
 		}

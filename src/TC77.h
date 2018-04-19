@@ -22,7 +22,7 @@
 #define TC77_KELVIN			1
 #define TC77_FAHRENHEIT		2
 
-#define TC77_DEBUG 			1	// set to 1 for debugging
+#define TC77_DEBUG 			0	// set to 1 for debugging
 
 class TC77
 {
