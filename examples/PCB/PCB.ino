@@ -20,7 +20,7 @@ void setup() {
   SPI.setClockDivider(SPI_CLOCK_DIV32); // datasheet p6
   tempPCB.Begin(9);							        // initialize the communication using pin 9 as cs
   Serial.println("");
-  tempPCB.ID();  								        // print the TC77 ID and halt in case of error
+  // tempPCB.ID();  								        // print the TC77 ID and halt in case of error. EDIT: commented out since this halts even if no error occurs
 
 }
 
